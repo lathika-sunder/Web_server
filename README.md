@@ -20,7 +20,8 @@ Serving the HTML pages.
 Testing the webserver
 ## PROGRAM:
 
-'''from http.server import HTTPServer, BaseHTTPRequestHandler content = "** 
+```
+from http.server import HTTPServer, BaseHTTPRequestHandler content = "** 
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -74,7 +75,9 @@ self.wfile.write (content . encode () )
 server_address =C'8080) 
 httpd HTTPServer (server_address, myhandler) 
 print("my webserver is running...") 
-httpd.serve_forever ()'''
+httpd.serve_forever ()
+
+```
 
 ## OUTPUT:
 file:///C:/Users/lathi/Desktop/EX%2001%20WEB/Web_server/ex01.html

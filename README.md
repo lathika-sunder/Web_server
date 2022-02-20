@@ -80,7 +80,7 @@ httpd.serve_forever ()
 ```
 
 ## OUTPUT:
-file:///C:/Users/lathi/Desktop/EX%2001%20WEB/Web_server/ex01.html
+![output](./1.png)
 
 ## RESULT:
 A simple webserver to display top five programming languages is developed
